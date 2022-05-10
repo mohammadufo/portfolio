@@ -1,5 +1,5 @@
 .c {
-  height: 100vh;
+  height: 100%;
   position: relative;
   margin-bottom: 0;
 }
@@ -109,6 +109,10 @@ button:hover {
 }
 
 @media screen and (max-width: 480px) {
+  .c {
+    height: 100%;
+  }
+
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;
@@ -131,6 +135,7 @@ button:hover {
     margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 7px;
   }
 
   input {
@@ -142,5 +147,6 @@ button:hover {
 
   button {
     margin-top: 10px;
+    width: 100%;
   }
 }
