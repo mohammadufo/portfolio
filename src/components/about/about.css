@@ -98,7 +98,8 @@
   }
 
   .a-card.bg,
-  .a-award {
+  .a-award,
+  .a-card.bg1 {
     display: none;
   }
 
